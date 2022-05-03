@@ -1,6 +1,17 @@
-
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min";
+import './style.css';
+import { Header } from './Header';
+import { AudioBenchmarking } from './AudioBenchmarking';
 
 function App() {
-  return <div className='App'>Hello World</div>;
+  return (
+    <div>
+      <Header />
+      <AudioBenchmarking />
+    </div>
+  );
 }
 export default App;
+
+
